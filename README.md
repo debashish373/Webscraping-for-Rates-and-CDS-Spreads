@@ -12,6 +12,8 @@ cds=WebScraper().cds_scrape()
 rates=WebScraper().rate_scrape()
 ```
 
+## Running directly on the terminal
+
 ## For sovereign 5Y CDS
 
 To get the sovereign CDS prices list from CNBC, you may run the following command in the terminal:
