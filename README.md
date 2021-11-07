@@ -12,7 +12,7 @@ cds=WebScraper().cds_scrape()
 rates=WebScraper().rate_scrape()
 ```
 
-## Running directly on the terminal
+## Running directly on the terminal:
 
 ## For sovereign 5Y CDS
 
