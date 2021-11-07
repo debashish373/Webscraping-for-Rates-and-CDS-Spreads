@@ -5,9 +5,16 @@ pip install -r requirements.txt
 cd src
 ```
 
+Run the cds_scrape and rate_scrape methods from the WebScraper class:
+
+```python
+cds=WebScraper().cds_scrape()
+rates=WebScraper().rate_scrape()
+```
+
 ## For sovereign 5Y CDS
 
-To get the sovereign CDS prices list from CNBC, you need to use the following command in the terminal:
+To get the sovereign CDS prices list from CNBC, you may run the following command in the terminal:
 
 ```python
 python main.py --extract CDS

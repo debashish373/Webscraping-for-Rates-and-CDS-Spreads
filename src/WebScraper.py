@@ -44,3 +44,20 @@ class WebScraper:
         self.driver.quit()
 
         return data
+
+    # def rate_scrape(self):
+
+    #     self.driver.get('https://www.cnbc.com/'+'sovereign-credit-default-swaps/')
+
+    #     names=([name.text for name in BeautifulSoup(self.driver.page_source,'html').findAll("td", {"data-field":"symbol"}) ])
+    #     px=([name.text for name in BeautifulSoup(self.driver.page_source,'html').findAll("td", {"data-field":"last"}) ])
+    #     change=([name.text for name in BeautifulSoup(self.driver.page_source,'html').findAll("td", {"data-field":"change"}) ])
+    #     change_pct=([name.text for name in BeautifulSoup(self.driver.page_source,'html').findAll("td", {"data-field":"change_pct"}) ])
+
+    #     data=pd.DataFrame({'Name':names,'Price':px,'Change':change,'Change_pct':change_pct})
+    #     data.insert(0,'Date',dt.datetime.now().strftime('%Y-%m-%d'))
+
+    #     self.driver.close()
+    #     self.driver.quit()
+
+    #     return data
